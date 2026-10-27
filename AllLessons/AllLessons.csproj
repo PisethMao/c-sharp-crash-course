@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <Folder Include="3. Data Types\Reference\Interface\" />
-      <Folder Include="5. Operators\" />
+      <Folder Include="6. Expressions Blocks\" />
     </ItemGroup>
 
 </Project>
