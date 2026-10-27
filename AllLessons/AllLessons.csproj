@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <Folder Include="3. Data Types\Reference\Interface\" />
-      <Folder Include="4. Casting\" />
+      <Folder Include="5. Operators\" />
     </ItemGroup>
 
 </Project>
