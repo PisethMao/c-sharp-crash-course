@@ -1,0 +1,15 @@
+D:\C#\AllLessons\bin\Debug\net10.0\AllLessons.exe
+D:\C#\AllLessons\bin\Debug\net10.0\AllLessons.deps.json
+D:\C#\AllLessons\bin\Debug\net10.0\AllLessons.runtimeconfig.json
+D:\C#\AllLessons\bin\Debug\net10.0\AllLessons.dll
+D:\C#\AllLessons\bin\Debug\net10.0\AllLessons.pdb
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.AssemblyInfoInputs.cache
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.AssemblyInfo.cs
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.csproj.CoreCompileInputs.cache
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.sourcelink.json
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.dll
+D:\C#\AllLessons\obj\Debug\net10.0\refint\AllLessons.dll
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.pdb
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.genruntimeconfig.cache
+D:\C#\AllLessons\obj\Debug\net10.0\ref\AllLessons.dll
