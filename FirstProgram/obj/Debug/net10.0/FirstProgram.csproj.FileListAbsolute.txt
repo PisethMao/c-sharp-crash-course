@@ -12,3 +12,4 @@ D:\C#\FirstProgram\obj\Debug\net10.0\refint\FirstProgram.dll
 D:\C#\FirstProgram\obj\Debug\net10.0\FirstProgram.pdb
 D:\C#\FirstProgram\obj\Debug\net10.0\FirstProgram.genruntimeconfig.cache
 D:\C#\FirstProgram\obj\Debug\net10.0\ref\FirstProgram.dll
+D:\C#\FirstProgram\obj\Debug\net10.0\FirstProgram.sourcelink.json
