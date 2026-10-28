@@ -9,8 +9,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="10. Method\" />
       <Folder Include="3. Data Types\Reference\Interface\" />
-      <Folder Include="9. Arrays\" />
     </ItemGroup>
 
 </Project>
