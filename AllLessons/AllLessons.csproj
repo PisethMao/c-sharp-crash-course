@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="11. Class Object\" />
+      <Folder Include="12. Nested Class\" />
       <Folder Include="3. Data Types\Reference\Interface\" />
     </ItemGroup>
 
