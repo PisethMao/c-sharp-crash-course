@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <Folder Include="3. Data Types\Reference\Interface\" />
-      <Folder Include="8. Control Flow\" />
+      <Folder Include="9. Arrays\" />
     </ItemGroup>
 
 </Project>
