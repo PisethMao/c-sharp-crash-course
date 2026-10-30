@@ -4,8 +4,8 @@ public class Implicit
 {
     public static void Run()
     {
-        int number = 100;
-        double result = number;
+        const int number = 100;
+        const double result = number;
         
         Console.WriteLine($"Result: {result}");
     }

@@ -5,7 +5,7 @@ public class SingleLine
     public static void Run()
     {
         // Declare a variable
-        int age = 21;
+        const int age = 21;
         // Display a value
         Console.WriteLine($"Age is {age}");
         Console.WriteLine("Hello, World...!!!"); // Print message

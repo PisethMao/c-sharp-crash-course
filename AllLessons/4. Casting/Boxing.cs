@@ -4,9 +4,9 @@ public class Boxing
 {
     public static void Run()
     {
-        int number = 100;
+        const int number = 100;
         object boxedNumber = number;
-        int unboxedNumber = (int)boxedNumber;
+        var unboxedNumber = (int)boxedNumber;
 
         Console.WriteLine($"Boxed Number: {boxedNumber}");
         Console.WriteLine($"Unboxed Number: {unboxedNumber}");

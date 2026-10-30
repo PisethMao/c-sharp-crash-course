@@ -4,7 +4,7 @@ public class Break
 {
     public static void Run()
     {
-        for (int i = 1; i <= 100; i++)
+        for (var i = 1; i <= 100; i++)
         {
             if (i == 50)
             {
@@ -14,9 +14,9 @@ public class Break
         }
         
         // Break in Nested Loop
-        for (int i = 1; i <= 10; i++)
+        for (var i = 1; i <= 10; i++)
         {
-            for (int j = 1; j <= 10; j++)
+            for (var j = 1; j <= 10; j++)
             {
                 if (j == 5)
                 {

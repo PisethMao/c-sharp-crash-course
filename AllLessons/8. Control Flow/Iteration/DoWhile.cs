@@ -4,7 +4,7 @@ public class DoWhile
 {
     public static void Run()
     {
-        int count = 10;
+        var count = 10;
         do
         {
             Console.WriteLine($"Count is = {count}");
@@ -19,7 +19,7 @@ public class DoWhile
             Console.WriteLine("3. Check Balance");
             Console.WriteLine("4. Exit");
             Console.Write("Please select an option: ");
-            string? userChoice = Console.ReadLine();
+            var userChoice = Console.ReadLine();
             if (!int.TryParse(userChoice, out choice))
             {
                 choice = -1;

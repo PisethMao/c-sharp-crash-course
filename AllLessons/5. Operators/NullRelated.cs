@@ -6,7 +6,7 @@ public class NullRelated
     {
         // Null-Coalescing Operator
         string? username = null;
-        string result = username ?? "Guest";
+        var result = username ?? "Guest";
         Console.WriteLine(result);
         // Null-Coalescing Assignment
         string? name = null;
@@ -14,11 +14,11 @@ public class NullRelated
         Console.WriteLine(name);
         // Null-Conditional Operator
         string? firstName = null;
-        int? length = firstName?.Length;
+        var length = firstName?.Length;
         Console.WriteLine(length);
         // Null-Conditional Element Access Operator
         int[]? numbers = null;
-        int? number = numbers?[0];
+        var number = numbers?[0];
         Console.WriteLine(number);
     }
 }

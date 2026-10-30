@@ -4,8 +4,8 @@ public class Boolean
 {
     public static void Run()
     {
-        bool isTrue = true;
-        bool isFalse = false;
+        const bool isTrue = true;
+        const bool isFalse = false;
 
         Console.WriteLine($"True is: {isTrue}");
         Console.WriteLine($"False is: {isFalse}");

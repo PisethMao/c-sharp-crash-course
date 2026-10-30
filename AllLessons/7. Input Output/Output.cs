@@ -10,9 +10,9 @@ public class Output
         Console.Write("Hello, ");
         Console.Write("C#");
 
-        string name = "Piseth Mao";
-        int age = 21;
-        double salary = 370.000;
+        const string name = "Piseth Mao";
+        const int age = 21;
+        const double salary = 370.000;
         
         // Approach 1
         Console.WriteLine("Name is: {0}", name);
@@ -23,20 +23,20 @@ public class Output
         Console.WriteLine($"Age is: {age}");
         Console.WriteLine($"Salary is: {salary:F2}");
 
-        string firstName = "Piseth";
-        string lastName = "Mao";
+        const string firstName = "Piseth";
+        const string lastName = "Mao";
         // Using the + Operator
-        string fullName = firstName + " " + lastName;
+        const string fullName = firstName + " " + lastName;
         Console.WriteLine($"Full name is: {fullName}");
         // Using String Interpolation (Recommended)
-        string fullName2 = $"{firstName} {lastName}";
+        const string fullName2 = $"{firstName} {lastName}";
         Console.WriteLine($"Full name is: {fullName2}");
         // Using string.Concat()
-        string fullName3 = string.Concat(firstName, " ",  lastName);
+        var fullName3 = string.Concat(firstName, " ",  lastName);
         Console.WriteLine($"Full name is: {fullName3}");
         // Using string.Join()
         string[] names = ["Piseth", "Sophaneth", "Pisal"];
-        string result = string.Join(", ", names);
+        var result = string.Join(", ", names);
         Console.WriteLine($"Result is: {result}");
     }
 }

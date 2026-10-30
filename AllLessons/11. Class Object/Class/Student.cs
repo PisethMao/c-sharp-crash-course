@@ -1,7 +1,7 @@
-namespace FirstProgram._11._Class_Object;
+namespace FirstProgram._11._Class_Object.Class;
 
 public class Student
 {
-    public string? Name { get; set; }
-    public int Age { get; set; }
+    public string? Name { get; init; }
+    public int Age { get; init; }
 }

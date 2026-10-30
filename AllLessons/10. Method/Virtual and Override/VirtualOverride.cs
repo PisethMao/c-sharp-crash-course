@@ -1,4 +1,6 @@
-namespace FirstProgram._10._Method;
+using FirstProgram._10._Method.Virtual_and_Override;
+
+namespace FirstProgram._10._Method.Virtual_And_Override;
 
 public class VirtualOverride
 {

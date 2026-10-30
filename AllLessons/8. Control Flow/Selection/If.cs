@@ -5,80 +5,92 @@ public class If
     public static void Run()
     {
         // If
-        int age = 21;
+        const int age = 21;
         if (age >= 18)
         {
             Console.WriteLine("You are an adult.");
         }
 
         // If-Else
-        string password = "12345678";
-        if (password == "12345678")
-        {
-            Console.WriteLine("You are login successfully!!!");
-        }
-        else
-        {
-            Console.WriteLine("You are login failed!!!");
-        }
+        Console.Write("Enter password: ");
+        var password = Console.ReadLine() ?? "";
+
+        Console.WriteLine(
+            password == "12345678"
+                ? "Login successful!"
+                : "Login failed!"
+        );
 
         // If-Else-If
-        int score = 85;
-        if (score >= 90)
+        Console.Write("Enter your score: ");
+
+        if (!int.TryParse(Console.ReadLine(), out var score))
         {
-            Console.WriteLine("Grade A");
+            Console.WriteLine("Invalid score!");
+            return;
         }
-        else if (score >= 80)
+
+        switch (score)
         {
-            Console.WriteLine("Grade B");
-        }
-        else if (score >= 70)
-        {
-            Console.WriteLine("Grade C");
-        }
-        else if (score >= 60)
-        {
-            Console.WriteLine("Grade D");
-        }else if (score >= 50)
-        {
-            Console.WriteLine("Grade E");
-        }else
-        {
-            Console.WriteLine("Grade F");
+            case >= 90:
+                Console.WriteLine("Grade A");
+                break;
+
+            case >= 80:
+                Console.WriteLine("Grade B");
+                break;
+
+            case >= 70:
+                Console.WriteLine("Grade C");
+                break;
+
+            case >= 60:
+                Console.WriteLine("Grade D");
+                break;
+
+            case >= 50:
+                Console.WriteLine("Grade E");
+                break;
+
+            default:
+                Console.WriteLine("Grade F");
+                break;
         }
         
         // Nested If
-        decimal balance = 1000m;
-        decimal amount = 200m;
-        bool isAccountActive = true;
-        if (isAccountActive)
+        var balance = 1000m;
+
+        Console.Write("Is account active? (true/false): ");
+
+        if (!bool.TryParse(Console.ReadLine(), out var isAccountActive))
         {
-            if (amount > 0)
-            {
-                if (balance >= amount)
-                {
-                    balance -= amount;
-                    Console.WriteLine("Withdrawal Successful!");
-                }
-                else
-                {
-                    Console.WriteLine("Insufficient Funds!");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid Withdrawal Amount!");
-            }
+            Console.WriteLine("Invalid account status!");
+            return;
+        }
+
+        Console.WriteLine(
+            isAccountActive
+                ? "Account is active!"
+                : "Account is inactive!"
+        );
+
+        Console.Write("Enter withdrawal amount: ");
+
+        if (!decimal.TryParse(Console.ReadLine(), out decimal amount))
+        {
+            Console.WriteLine("Invalid withdrawal amount!");
+            return;
+        }
+
+        if (isAccountActive && amount > 0 && balance >= amount)
+        {
+            balance -= amount;
+            Console.WriteLine("Withdrawal Successful!");
+            Console.WriteLine($"Remaining Balance: {balance}");
         }
         else
         {
-            Console.WriteLine("Account Not Active!");
-        }
-        
-        // Combine Conditions
-        if (isAccountActive && amount > 0 && balance >= amount)
-        {
-            Console.WriteLine("Withdrawal Successful!");
+            Console.WriteLine("Withdrawal Failed!");
         }
     }
 }

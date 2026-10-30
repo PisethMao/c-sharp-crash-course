@@ -4,9 +4,9 @@ public class FloatingPoint
 {
     public static void Run()
     {
-        float f = 1.23f;
-        double d = 1.23;
-        decimal dec = 1.23m;
+        const float f = 1.23f;
+        const double d = 1.23;
+        const decimal dec = 1.23m;
         
         Console.WriteLine($"Float is: {f}");
         Console.WriteLine($"Double is: {d}");

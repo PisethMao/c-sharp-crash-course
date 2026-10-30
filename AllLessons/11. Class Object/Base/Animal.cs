@@ -2,7 +2,7 @@ namespace FirstProgram._11._Class_Object.Base;
 
 public class Animal
 {
-    public Animal(string name)
+    protected Animal(string name)
     {
         Console.WriteLine(name);
     }

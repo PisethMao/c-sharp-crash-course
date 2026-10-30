@@ -7,8 +7,9 @@ public class Program
         var s1 = new Overloading();
         var s2 = new Overloading("Piseth");
         var s3 = new Overloading("Piseth", 21);
-        Console.WriteLine(s1.Name);
-        Console.WriteLine(s2.Name);
-        Console.WriteLine(s3.Name);
+
+        Console.WriteLine($"Name: {s1.Name}, Age: {s1.Age}");
+        Console.WriteLine($"Name: {s2.Name}, Age: {s2.Age}");
+        Console.WriteLine($"Name: {s3.Name}, Age: {s3.Age}");
     }
 }

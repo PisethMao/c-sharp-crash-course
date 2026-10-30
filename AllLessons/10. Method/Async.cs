@@ -2,16 +2,15 @@ namespace FirstProgram._10._Method;
 
 public class Async
 {
-    public async Task<string> GetUserAsync()
+    private static async Task<string> GetUserAsync()
     {
         await Task.Delay(1000);
         return "Hello World";
     }
     
-    public static async Task TaskRun()
+    private static async Task TaskRun()
     {
-        Async user = new Async();
-        string name = await user.GetUserAsync();
+        var name = await GetUserAsync();
         Console.WriteLine(name);
     }
 

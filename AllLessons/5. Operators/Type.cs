@@ -4,7 +4,7 @@ public class Type
 {
     public static void Run()
     {
-        System.Type type = typeof(int);
+        var type = typeof(int);
         
         Console.WriteLine(type.Name);
     }

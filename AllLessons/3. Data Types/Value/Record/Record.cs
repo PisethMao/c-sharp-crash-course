@@ -6,10 +6,10 @@ public class Record
 {
     public static void Run()
     {
-        Person p = new Person("John", 30);
-        Person p2 = p;
+        var p = new Person("John", 30);
+        var p2 = p;
         p2.Name = "Jane";
-        Console.WriteLine(p.Name);
-        Console.WriteLine(p2.Name);
+        Console.WriteLine(p.Name, p.Age);
+        Console.WriteLine(p2.Name, p2.Age);
     }
 }

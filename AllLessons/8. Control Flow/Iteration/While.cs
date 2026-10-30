@@ -3,8 +3,8 @@ namespace FirstProgram._8._Control_Flow.Iteration;
 public class While
 {
     public static void Run()
-    {
-        int count = 1;
+    { 
+        var count = 1;
         while (count <= 100)
         {
             Console.WriteLine(count);
@@ -17,12 +17,12 @@ public class While
         //     Console.WriteLine(number);
         // }
 
-        int attempts = 0;
-        bool isAuthenticated = false;
+        var attempts = 0; 
+        var isAuthenticated = false;
         while (attempts < 3 && !isAuthenticated)
         {
             Console.Write("Enter PIN: ");
-            String? pin = Console.ReadLine();
+            var pin = Console.ReadLine();
             if (pin == "1234")
             {
                 isAuthenticated = true;

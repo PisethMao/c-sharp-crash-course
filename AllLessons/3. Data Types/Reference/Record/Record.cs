@@ -6,10 +6,10 @@ public class Record
 {
     public static void Run()
     {
-        Person p = new Person("John", 30);
-        Person p2 = p;
-        Console.WriteLine(p);
-        Console.WriteLine(p2);
+        var p = new Person("John", 30);
+        var p2 = p with { };
+        Console.WriteLine(p == p2);
+        Console.WriteLine(p.Equals(p2));
         Console.WriteLine(ReferenceEquals(p, p2));
     }
 }

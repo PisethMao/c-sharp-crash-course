@@ -4,7 +4,7 @@ public class Continue
 {
     public static void Run()
     {
-        for (int i = 1; i <= 5; i++)
+        for (var i = 1; i <= 5; i++)
         {
             if (i == 2)
             {

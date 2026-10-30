@@ -2,7 +2,7 @@ namespace FirstProgram._10._Method;
 
 public class Recursive
 {
-    public static int Factorial(int n)
+    private static int Factorial(int n)
     {
         if (n <= 1)
         {
@@ -12,7 +12,7 @@ public class Recursive
     }
     public static void Run()
     {
-        int result = Factorial(5);
+        var result = Factorial(5);
         Console.WriteLine($"Result: {result}");
     }
 }

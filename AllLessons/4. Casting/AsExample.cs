@@ -5,7 +5,7 @@ public class AsExample
     public static void Run()
     {
         object value = "Hello, C#";
-        string? result = value as string;
+        var result = value as string;
         
         Console.WriteLine(result);
     }

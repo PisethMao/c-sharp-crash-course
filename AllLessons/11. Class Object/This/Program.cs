@@ -4,8 +4,8 @@ public class Program
 {
     public static void Run()
     {
-        Students s1 = new Students();
-        Students students = new Students("Piseth");
+        var s1 = new Students();
+        var students = new Students("Piseth");
         s1.Display();
         students.Display();
     }

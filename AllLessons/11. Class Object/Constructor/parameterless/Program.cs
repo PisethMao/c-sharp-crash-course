@@ -1,10 +1,9 @@
-namespace FirstProgram._11._Class_Object.Constructor;
+namespace FirstProgram._11._Class_Object.Constructor.Parameterless;
 
 public class Program
 {
     public static void Run()
     {
-        var student = new Parameterless();
-        Console.WriteLine(student.Name);
+        Console.WriteLine(Parameterless.Name);
     }
 }

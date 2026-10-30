@@ -11,8 +11,13 @@ public class XmlDocument
     /// <param name="a">First number.</param>
     /// <param name="b">Second number.</param>
     /// <returns>The sum of two numbers.</returns>
-    public int add(int a, int b)
+    private static int Add(int a, int b)
     {
         return a + b;
+    }
+
+    public static void Run()
+    {
+        Console.WriteLine(Add(1, 2));
     }
 }

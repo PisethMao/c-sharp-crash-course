@@ -5,24 +5,27 @@ public class SwitchExpression
     public static void Run()
     {
         // Traditional Approach
-        int code = 200;
-        string status;
-        switch (code)
+        Console.Write("Enter HTTP status code: ");
+
+        if (!int.TryParse(Console.ReadLine(), out int code))
         {
-            case 200:
-                status = "Success";
-                break;
-            case 404:
-                status = "Not Found";
-                break;
-            default:
-                status = "Unknown";
-                break;
+            Console.WriteLine("Invalid status code!");
+            return;
         }
-        Console.WriteLine(status);
+
+        var status = code switch
+        {
+            200 => "Success",
+            400 => "Bad Request",
+            404 => "Not Found",
+            500 => "Internal Server Error",
+            _ => "Unknown"
+        };
+
+        Console.WriteLine($"Status: {status}");
         
         // Modern Approach
-        string message = code switch
+        var message = code switch
         {
             200 => "Success",
             400 => "Bad Request",
@@ -33,8 +36,15 @@ public class SwitchExpression
         Console.WriteLine(message);
         
         // Switch Expressions with Range
-        int score = 88;
-        string grade = score switch
+        Console.Write("Enter your score: ");
+
+        if (!int.TryParse(Console.ReadLine(), out int score))
+        {
+            Console.WriteLine("Invalid score!");
+            return;
+        }
+
+        var grade = score switch
         {
             >= 90 => "Grade A",
             >= 80 => "Grade B",
@@ -43,6 +53,7 @@ public class SwitchExpression
             >= 50 => "Grade E",
             _ => "Grade F"
         };
+
         Console.WriteLine(grade);
     }
 }

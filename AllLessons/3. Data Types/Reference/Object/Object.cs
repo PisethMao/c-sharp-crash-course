@@ -1,4 +1,4 @@
-namespace FirstProgram._3._Data_Types.Reference;
+namespace FirstProgram._3._Data_Types.Reference.Object;
 
 public class Object
 {

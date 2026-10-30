@@ -4,9 +4,16 @@ public class ConditionalTernary
 {
     public static void Run()
     {
-        int age = 20;
-        
-        string result = age >= 18 ? "Adult" : "Minor";
-        Console.WriteLine(result);
+        Console.Write("Enter your age: ");
+
+        if (int.TryParse(Console.ReadLine(), out int age))
+        {
+            var result = age >= 18 ? "Adult" : "Minor";
+            Console.WriteLine(result);
+        }
+        else
+        {
+            Console.WriteLine("Invalid age.");
+        }
     }
 }

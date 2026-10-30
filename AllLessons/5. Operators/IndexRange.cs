@@ -12,7 +12,7 @@ public class IndexRange
         Console.WriteLine(numbers[^2]);
         // Range
         int[] numbers2 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
-        int[] selected = numbers2[1..4];
-        Console.WriteLine(String.Join(", ", selected));
+        var selected = numbers2[1..4];
+        Console.WriteLine(string.Join(", ", selected));
     }
 }

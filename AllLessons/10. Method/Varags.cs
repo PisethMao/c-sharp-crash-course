@@ -2,13 +2,14 @@ namespace FirstProgram._10._Method;
 
 public class Varags
 {
-    public static void Sum(params int[] numbers)
+    private static void Sum(params int[] numbers)
     {
-        int total = 0;
-        foreach (var num in numbers)
-        {
-            total += num;
-        }
+        // var total = 0;
+        // foreach (var num in numbers)
+        // {
+        //     total += num;
+        // }
+        var total = numbers.Sum();
         Console.WriteLine($"Total numbers: {total}");
     }
     public static void Run()

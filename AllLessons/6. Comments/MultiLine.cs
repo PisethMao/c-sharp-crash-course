@@ -9,10 +9,10 @@ public class MultiLine
          * the total price of a product
          * including tax.
          */
-        decimal price = 100m;
-        decimal taxRate = 0.1m;
+        const decimal price = 100m;
+        const decimal taxRate = 0.1m;
         
-        decimal total = price + (price * taxRate);
+        const decimal total = price + (price * taxRate);
         Console.WriteLine($"The total price is {total}");
     }
 }

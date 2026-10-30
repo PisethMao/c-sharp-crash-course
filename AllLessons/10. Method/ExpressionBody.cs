@@ -9,11 +9,10 @@ public class ExpressionBody
     // }
     
     // Modern
-    public int Add(int a, int b) => a + b;
+    private static int Add(int a, int b) => a + b;
     
     public static void Run()
     {
-        ExpressionBody expr = new ExpressionBody();
-        Console.WriteLine(expr.Add(2, 3));
+        Console.WriteLine(Add(2, 3));
     }
 }

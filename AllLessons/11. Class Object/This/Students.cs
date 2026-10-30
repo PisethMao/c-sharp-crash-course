@@ -1,16 +1,9 @@
 namespace FirstProgram._11._Class_Object.This;
 
-public class Students
+public class Students(string name)
 {
-    private string name;
-
     public Students() : this("Unknown")
     {
-    }
-
-    public Students(string name)
-    {
-        this.name = name;
     }
 
     public void Display()

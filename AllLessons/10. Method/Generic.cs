@@ -1,18 +1,17 @@
-namespace FirstProgram._10._Method.Generic;
+namespace FirstProgram._10._Method;
 
 public class Generic
 {
-    public T GetValue<T>(T defaultValue)
+    private static T GetValue<T>(T defaultValue)
     {
         return defaultValue;
     }
     
     public static void Run()
     {
-        Generic generic = new Generic();
-        int age = generic.GetValue(17);
-        string name = generic.GetValue("Piseth");
-        bool isMale = generic.GetValue(true);
+        var age = GetValue(17);
+        var name = GetValue("Piseth");
+        var isMale = GetValue(true);
         Console.WriteLine(age);
         Console.WriteLine(name);
         Console.WriteLine(isMale);

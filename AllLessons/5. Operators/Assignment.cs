@@ -4,7 +4,7 @@ public class Assignment
 {
     public static void Run()
     {
-        int number = 10;
+        var number = 10;
 
         number += 5;
         Console.WriteLine(number);

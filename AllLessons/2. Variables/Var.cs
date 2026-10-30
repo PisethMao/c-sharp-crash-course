@@ -4,12 +4,12 @@ public class Var
 {
     public static void Run()
     {
-        var name = "John";
-        var age = 25;
+        const string name = "John";
+        const int age = 25;
         // age = 30; // Can Use
         // age = "abc"; // Cannot Use
-        var height = 1.75m;
-        var isStudent = true;
+        const decimal height = 1.75m;
+        const bool isStudent = true;
         
         Console.WriteLine($"Name: {name}");
         Console.WriteLine($"Age: {age}");

@@ -1,11 +1,6 @@
-namespace FirstProgram._11._Class_Object.Constructor;
+namespace FirstProgram._11._Class_Object.Constructor.Parameterless;
 
-public class Parameterless
+public static class Parameterless
 {
-    public string Name { get; set; }
-
-    public Parameterless()
-    {
-        Name = "Unknown";
-    }
+    public static string Name => "Unknown";
 }

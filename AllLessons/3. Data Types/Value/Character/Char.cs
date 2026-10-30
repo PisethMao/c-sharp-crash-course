@@ -4,7 +4,7 @@ public class Char
 {
     public static void Run()
     {
-        char c = 'a';
+        const char c = 'a';
         
         Console.WriteLine($"Char is: {c}");
     }

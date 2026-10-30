@@ -4,8 +4,8 @@ public class Explicit
 {
     public static void Run()
     {
-        double number = 99.99;
-        int result = (int)number;
+        const double number = 99.99;
+        const int result = (int)number;
 
         Console.WriteLine($"Result: {result}");
     }

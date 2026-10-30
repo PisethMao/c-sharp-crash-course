@@ -1,25 +1,15 @@
 namespace FirstProgram._11._Class_Object.Constructor.overloading;
 
-public class Overloading
+public class Overloading(string name = "Default", int age = 0)
 {
-    public string Name { get; set; }
-    public int Age { get; set; }
+    public string Name { get; } = name;
+    public int Age { get; } = age;
 
-    public Overloading()
+    public Overloading() : this("Default", 0)
     {
-        Name = "Default";
-        Age = 0;
     }
 
-    public Overloading(string name)
+    public Overloading(string name) : this(name, 0)
     {
-        Name = name;
-        Age = 0;
-    }
-
-    public Overloading(string name, int age)
-    {
-        Name = name;
-        Age = age;
     }
 }

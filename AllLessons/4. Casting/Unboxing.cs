@@ -5,7 +5,7 @@ public class Unboxing
     public static void Run()
     {
         object boxedNumber = 100;
-        int unboxedNumber = (int)boxedNumber;
+        var unboxedNumber = (int)boxedNumber;
 
         Console.WriteLine($"Boxed Number: {boxedNumber}");
         Console.WriteLine($"Unboxed Number: {unboxedNumber}");

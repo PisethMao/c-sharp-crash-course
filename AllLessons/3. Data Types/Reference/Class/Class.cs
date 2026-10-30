@@ -1,11 +1,11 @@
-namespace FirstProgram._3._Data_Types.Reference;
+namespace FirstProgram._3._Data_Types.Reference.Class;
 
 public class Class
 {
-    public string Name { get; set; } = "";
-    public int Age { get; set; } = 0;
+    private string Name { get; init; } = "";
+    private int Age { get; init; }
 
-    public void DisplayInfo()
+    private void DisplayInfo()
     {
         Console.WriteLine($"Name: {Name}, Age: {Age}");
     }

@@ -4,8 +4,8 @@ public class ComparisonRelational
 {
     public static void Run()
     {
-        int a = 10;
-        int b = 20;
+        const int a = 10;
+        const int b = 20;
         
         Console.WriteLine(a == b);
         Console.WriteLine(a != b);

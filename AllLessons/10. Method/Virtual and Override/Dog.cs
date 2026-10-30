@@ -1,4 +1,4 @@
-namespace FirstProgram._10._Method;
+namespace FirstProgram._10._Method.Virtual_and_Override;
 
 public class Dog : Animal
 {

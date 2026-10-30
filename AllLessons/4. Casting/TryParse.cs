@@ -4,15 +4,12 @@ public class TryParse
 {
     public static void Run()
     {
-        string input = "123";
+        const string input = "123";
         
-        if(int.TryParse(input, out int result))
-        {
-            Console.WriteLine($"Parsed Number: {result}");
-        }
-        else
-        {
-            Console.WriteLine("Failed to parse the input.");
-        }
+        Console.WriteLine(
+            int.TryParse(input, out var result)
+                ? $"Parsed Number: {result}"
+                : "Failed to parse the input."
+        );
     }
 }

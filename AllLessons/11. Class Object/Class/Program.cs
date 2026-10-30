@@ -1,12 +1,12 @@
-namespace FirstProgram._11._Class_Object;
+namespace FirstProgram._11._Class_Object.Class;
 
 public class Program
 {
     public static void Run()
     {
-        Student student = new Student();
-        student.Name = "Piseth";
-        student.Age = 30;
+        var student = new Student { Name = "John", Age = 30 };
+        // student.Name = "Piseth";
+        // student.Age = 30;
         Console.WriteLine(student.Name);
         Console.WriteLine(student.Age);
     }

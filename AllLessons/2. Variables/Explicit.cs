@@ -4,10 +4,10 @@ public class Explicit
 {
     public static void Run()
     {
-        string name = "John";
-        int age = 25;
-        decimal height = 1.75m;
-        bool isStudent = true;
+        const string name = "John";
+        const int age = 25;
+        const decimal height = 1.75m;
+        const bool isStudent = true;
 
         Console.WriteLine("Name: " + name);
         Console.WriteLine($"Age: {age}");

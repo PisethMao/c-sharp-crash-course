@@ -5,7 +5,7 @@ public class Program
     public static void Run()
     {
         Struct s = new() { X = 0, Y = 0 };
-        Struct s2 = s;
+        var s2 = s;
         s2.X = 1;
         
         Console.WriteLine(s.X);
