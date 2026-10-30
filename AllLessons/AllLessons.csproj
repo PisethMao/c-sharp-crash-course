@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="14. OOP\" />
+      <Folder Include="15. Packages\" />
       <Folder Include="3. Data Types\Reference\Interface\" />
     </ItemGroup>
 
