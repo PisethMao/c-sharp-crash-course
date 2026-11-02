@@ -13,3 +13,6 @@ D:\C#\AllLessons\obj\Debug\net10.0\refint\AllLessons.dll
 D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.pdb
 D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.genruntimeconfig.cache
 D:\C#\AllLessons\obj\Debug\net10.0\ref\AllLessons.dll
+D:\C#\AllLessons\bin\Debug\net10.0\Newtonsoft.Json.dll
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.csproj.AssemblyReference.cache
+D:\C#\AllLessons\obj\Debug\net10.0\AllLessons.csproj.Up2Date

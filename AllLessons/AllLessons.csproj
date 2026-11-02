@@ -9,8 +9,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="15. Packages\" />
       <Folder Include="3. Data Types\Reference\Interface\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     </ItemGroup>
 
 </Project>
