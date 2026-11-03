@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hv2lgAaZh9M=",
+  "dgSpecHash": "gWyaXKwBhhA=",
   "success": true,
-  "projectFilePath": "D:\\C#\\AllLessons\\AllLessons.csproj",
+  "projectFilePath": "D:\\C Sharp\\c-sharp-crash-course\\AllLessons\\AllLessons.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\20608\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
   ],
