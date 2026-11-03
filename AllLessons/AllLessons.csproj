@@ -9,6 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="18. Exceptions\" />
       <Folder Include="3. Data Types\Reference\Interface\" />
     </ItemGroup>
 
