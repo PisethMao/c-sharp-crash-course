@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="19. Input - Output Streams\" />
+      <Folder Include="20. C# New Features\" />
       <Folder Include="3. Data Types\Reference\Interface\" />
     </ItemGroup>
 
