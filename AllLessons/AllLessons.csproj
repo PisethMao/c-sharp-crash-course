@@ -9,7 +9,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="20. C# New Features\" />
+      <Folder Include="20. C# New Features\C# 8\Switch Expressions\Positional\" />
+      <Folder Include="20. C# New Features\C# 9\" />
       <Folder Include="3. Data Types\Reference\Interface\" />
     </ItemGroup>
 
